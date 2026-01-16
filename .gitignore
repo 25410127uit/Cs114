@@ -52,11 +52,15 @@ figs/
 # Artifacts (MODEL)
 # =========
 # Ignore everything in artifacts...
-artifacts/
-!artifacts/model.joblib
+app/artifacts/*
+!app/artifacts/model_lgbm.joblib
+!app/artifacts/model_xgb.joblib
+!app/artifacts/best_model_name.joblib
+
 
 # =========
 # Misc
 # =========
 *.tmp
 *.bak
+
